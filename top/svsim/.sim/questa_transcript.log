@@ -1,0 +1,495 @@
+Batch mode simulation case:  with test sequence: 
+Simulation script log file: /home/roarsk/IN5200_INF5430/IN5200_lab/lab_H20/lab_answer/top/svsim//.sim/questa_transcript.log
+Reading pref.tcl
+
+# 2019.1
+
+# vsim -lib tb_mla_lib -L unisim -L unimacro -L mla_lib -autoexclusionsdisable=fsm -fsmdebug -assertdebug "+notimingchecks" -printsimstats -msgmode both -modelsimini /home/roarsk/IN5200_INF5430/IN5200_lab/lab_H20/lab_answer/scripts/questa/modelsim.ini -coverage -t ps -mvchome /tools/Questa_r/vip_10.7 "+QVIP_UVM_REPORTING" -classdebug -uvmcontrol=all,certe "+UVM_MAX_QUIT_COUNT=11" -scdpidebug -onfinish stop -sv_seed 42 "+UVM_VERBOSITY=UVM_MEDIUM" -voptargs=""+acc=v"" "+uvm_set_action="*,_ALL_,UVM_ERROR,UVM_DISPLAY|UVM_STOP"" "+UVM_TESTNAME=" -c -do "/home/roarsk/IN5200_INF5430/IN5200_lab/lab_H20/lab_answer/scripts/questa/run.do" tb_top -Gtarget=ZEDBOARD 
+# Start time: 16:16:26 on Dec 18,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2019.1 linux_x86_64 Jan  1 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_psif_vreguvm_pkg_uvm_rw(fast)
+# Loading work.top_psif_vreguvm_pkg_uvm(fast)
+# Loading work.kb_axi4lite_agent_if(fast)
+# Loading work.typedef_pkg(fast)
+# Loading work.kb_axi4lite_agent_pkg(fast)
+# Loading work.interrupt_if(fast)
+# Loading work.interrupt_handler_pkg(fast)
+# Loading work.reset_agent_if(fast)
+# Loading work.reset_agent_pkg(fast)
+# Loading work.tb_env_base_pkg(fast)
+# Loading work.spi_4wire_agent_if(fast)
+# Loading work.spi_4wire_agent_pkg(fast)
+# Loading work.oled_spi_agent_if(fast)
+# Loading work.oled_spi_agent_pkg(fast)
+# Loading work.tb_top_core_odi_oled_ctrl_bind(fast)
+# Loading work.probe_pkg(fast)
+# Loading work.tb_env_pkg(fast)
+# Loading work.base_seq_pkg(fast)
+# Loading work.base_test_pkg(fast)
+# Loading work.psif_dti_spi_pkg(fast)
+# Loading work.psif_odi_spi_pkg(fast)
+# Loading work.psif_ram_pkg(fast)
+# Loading work.psif_reg_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.tb_top(fast)
+# Loading work.reset_agent_if(fast)
+# Loading work.oled_spi_agent_if(fast)
+# Loading work.spi_4wire_agent_if(fast)
+# Loading work.kb_axi4lite_agent_if_sv_unit(fast)
+# Loading work.kb_axi4lite_agent_if(fast)
+# Loading work.interrupt_if(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading psif_lib.psif_pck
+# Loading mla_lib.target_pck
+# Loading mla_lib.top(str)#1
+# Loading mla_lib.clk_wiz_0(structure)#1
+# Loading mla_lib.clk_wiz_0_clk_wiz_0_clk_wiz(structure)#1
+# Loading unisim.bufg(bufg_v)#1
+# Loading unisim.ibuf(ibuf_v)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# Loading unisim.mmcme2_adv(mmcme2_adv_v)#1
+# Loading mla_lib.cru(rtl)#1
+# Loading mla_lib.processor_system(dmy)#1
+# Loading psif_lib.odi_pck
+# Loading psif_lib.dti_pck
+# Loading mla_lib.core(str)#1
+# Loading mla_lib.psif_axi4pifb(rtl)#1
+# Loading mla_lib.odi(str)#1
+# Loading mla_lib.odi_reg(rtl)#1
+# Loading ieee.std_logic_unsigned(body)
+# Loading mla_lib.oled_ctrl(behavioral)#1
+# Loading verilog.vl_resolve(body)
+# Loading verilog.vl_types(body)
+# Loading mla_lib.oled_init(behavioral)#1
+# Loading mla_lib.spi_ctrl(behavioral)#1
+# Loading work.probe_itf(fast)
+# Loading work.probe_itf(fast__1)
+# Loading mla_lib.delay(behavioral)#1
+# Loading mla_lib.oled_ex(behavioral)#1
+# Loading mla_lib.spi_ctrl(behavioral)#2
+# Loading mla_lib.ascii_rom(behavioral)#1
+# Loading mla_lib.dti(str)#1
+# Loading mla_lib.dti_reg(rtl)#1
+# Loading mla_lib.fifo_512x16bit(structure)#1
+# Loading mla_lib.fifo_512x16bit_fifo_generator_v13_2_3(structure)#1
+# Loading unisim.gnd(gnd_v)#1
+# Loading unisim.vcc(vcc_v)#1
+# Loading mla_lib.fifo_512x16bit_fifo_generator_v13_2_3_synth(structure)#1
+# Loading mla_lib.fifo_512x16bit_fifo_generator_top(structure)#1
+# Loading mla_lib.fifo_512x16bit_fifo_generator_ramfifo(structure)#1
+# Loading mla_lib.fifo_512x16bit_clk_x_pntrs(structure)#1
+# Loading unisim.lut4(lut4_v)#1
+# Loading unisim.lut2(lut2_v)#1
+# Loading mla_lib.fifo_512x16bit_xpm_cdc_gray(structure)#1
+# Loading unisim.fdre(fdre_v)#1
+# Loading unisim.lut3(lut3_v)#1
+# Loading unisim.lut6(lut6_v)#1
+# Loading unisim.lut5(lut5_v)#1
+# Loading mla_lib.\fifo_512x16bit_xpm_cdc_gray__2\(structure)#1
+# Loading mla_lib.fifo_512x16bit_rd_logic(structure)#1
+# Loading mla_lib.fifo_512x16bit_rd_dc_as(structure)#1
+# Loading unisim.carry4(carry4_v)#1
+# Loading unisim.fdce(fdce_v)#1
+# Loading mla_lib.fifo_512x16bit_rd_status_flags_as(structure)#1
+# Loading mla_lib.fifo_512x16bit_compare_1(structure)#1
+# Loading mla_lib.fifo_512x16bit_compare_2(structure)#1
+# Loading unisim.fdpe(fdpe_v)#1
+# Loading mla_lib.fifo_512x16bit_rd_bin_cntr(structure)#1
+# Loading unisim.lut1(lut1_v)#1
+# Loading mla_lib.fifo_512x16bit_wr_logic(structure)#1
+# Loading mla_lib.fifo_512x16bit_wr_status_flags_as(structure)#1
+# Loading mla_lib.fifo_512x16bit_compare(structure)#1
+# Loading mla_lib.fifo_512x16bit_compare_0(structure)#1
+# Loading mla_lib.fifo_512x16bit_wr_bin_cntr(structure)#1
+# Loading mla_lib.fifo_512x16bit_memory(structure)#1
+# Loading mla_lib.fifo_512x16bit_blk_mem_gen_v8_4_2(structure)#1
+# Loading mla_lib.fifo_512x16bit_blk_mem_gen_v8_4_2_synth(structure)#1
+# Loading mla_lib.fifo_512x16bit_blk_mem_gen_top(structure)#1
+# Loading mla_lib.fifo_512x16bit_blk_mem_gen_generic_cstr(structure)#1
+# Loading mla_lib.fifo_512x16bit_blk_mem_gen_prim_width(structure)#1
+# Loading mla_lib.fifo_512x16bit_blk_mem_gen_prim_wrapper(structure)#1
+# Loading unisim.ramb18e1(ramb18e1_v)#1
+# Loading ieee.std_logic_textio(body)
+# Loading unisim.rb18_internal_vhdl(rb18_internal_vhdl_v)#1
+# Loading mla_lib.fifo_512x16bit_reset_blk_ramfifo(structure)#1
+# Loading mla_lib.fifo_512x16bit_xpm_cdc_async_rst(structure)#1
+# Loading unisim.fdpe(fdpe_v)#2
+# Loading mla_lib.fifo_512x16bit_xpm_cdc_single(structure)#1
+# Loading mla_lib.\fifo_512x16bit_xpm_cdc_single__2\(structure)#1
+# Loading mla_lib.\fifo_512x16bit_xpm_cdc_async_rst__2\(structure)#1
+# Loading mla_lib.spictrl(rtl)#1
+# Loading mla_lib.dti_spi(rtl)#1
+# ** Warning: (vsim-3764) Stand-alone call to function 'begin_tr' treated as implicit void cast.
+#    Time: 0 ps  Iteration: 0  Region: /kb_axi4lite_agent_pkg::kb_axi4lite_agent_driver File: /home/roarsk/IN5200_INF5430/IN5200_lab/lab_H20/lab_answer/vip/kb_axi4lite_agent/kb_axi4lite_agent_driver.svh Line: 79
+# ** Warning: (vsim-3764) Stand-alone call to function 'try_put' treated as implicit void cast.
+#    Time: 0 ps  Iteration: 0  Region: /tb_env_pkg::coverage_oled_spi File: /home/roarsk/IN5200_INF5430/IN5200_lab/lab_H20/lab_answer/top/tb/coverage_oled_spi.svh Line: 133
+# Loading /tools/Questa_r/2019.1/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(14) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(13) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(12) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(11) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(10) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(9) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(8) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_addr(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_ba(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_ba(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_ba(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_cas_n has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_ck_n has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_ck_p has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_cke has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_cs_n has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dm(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dm(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dm(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dm(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(31) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(30) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(29) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(28) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(27) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(26) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(25) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(24) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(23) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(22) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(21) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(20) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(19) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(18) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(17) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(16) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(15) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(14) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(13) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(12) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(11) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(10) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(9) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(8) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dq(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_n(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_n(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_n(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_n(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_p(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_p(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_p(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_dqs_p(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_odt has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_ras_n has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_reset_n has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/DDR_we_n has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_ddr_vrn has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_ddr_vrp has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(53) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(52) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(51) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(50) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(49) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(48) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(47) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(46) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(45) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(44) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(43) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(42) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(41) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(40) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(39) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(38) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(37) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(36) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(35) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(34) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(33) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(32) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(31) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(30) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(29) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(28) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(27) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(26) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(25) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(24) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(23) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(22) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(21) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(20) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(19) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(18) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(17) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(16) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(15) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(14) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(13) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(12) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(11) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(10) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(9) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(8) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_mio(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_ps_clk has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_ps_porb has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /tb_top/mla_top/mla_ps/FIXED_IO_ps_srstb has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_top/mla_top/mla_pl/psif_irq(31 downto 0) has no driver.
+# This port will contribute value (32'hXXXXXXXX) to the signal network.
+# do /home/roarsk/IN5200_INF5430/IN5200_lab/lab_H20/lab_answer/scripts/questa/run.do
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_WORD0_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_OLEDBYTE7_4_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_OLEDBYTE11_8_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'DTI_SPI_FIFO_TX_WRITE_ENABLE_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_OLEDBYTE15_12_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_WORD1_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_OLEDBYTE3_0_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'DTI_SPI_LOOP_ENA_reg' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_module_ODI_map_coverage' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'ODI_module' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'DTI_module_DTI_map_coverage' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_WARNING @ 0: reporter [TPRGED] Type name 'DTI_module' already registered with factory. No string-based lookup support for multiple types with the same type name.
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(all)
+# UVM_FATAL @ 0: reporter [NOCOMP] No components instantiated. You must either instantiate at least one component before calling run_test or use run_test to do so. To run a test using run_test, use +UVM_TESTNAME or supply the test name in the argument to run_test(). Exiting simulation.
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    2
+# UVM_WARNING :   12
+# UVM_ERROR :    0
+# UVM_FATAL :    1
+# ** Report counts by id
+# [NOCOMP]     1
+# [Questa UVM]     2
+# [TPRGED]    12
+# ** Note: $finish    : /tools/Questa_r/2019.1/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_report_object.svh(292)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top
+# Break in Function uvm_pkg/uvm_report_object::die at /tools/Questa_r/2019.1/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_report_object.svh line 292
+# Stopped at /tools/Questa_r/2019.1/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_report_object.svh line 292
+
+Info: Writing coverage data for 
+Info: Module coverage data generation complete
+# ** Warning: (vsim-19053) Option '-file' has been deprecated. Please use option '-output' instead.
+Info: Module coverage report written to .rep
+# ** Warning: (vsim-19053) Option '-htmldir' has been deprecated. Please use option '-output' instead.
+Info: Module coverage report written to _html
+# Saving coverage database on exit...
+# Memory Statistics                         
+#     mem: size after elab (VSZ)                 512.48 Mb
+#     mem: size during sim (VSZ)                 518.69 Mb
+# Elaboration Time                          
+#    elab: wall time                               1.66 s
+#    elab: cpu time                                1.13 s
+# Simulation Time                           
+#     sim: wall time                               0.00 s
+#     sim: cpu time                                0.02 s
+#     log: wall time                               0.00 s
+#     log: cpu time                                0.00 s
+# Tcl Command Time                          
+#     cmd: wall time                               1.84 s
+#     cmd: cpu time                                0.60 s
+# Coverage Save Time                        
+#    save: wall time                               0.09 s
+#    save: cpu time                                0.07 s
+# Total Time                                
+#   total: wall time                               3.59 s
+#   total: cpu time                                1.82 s
+# 
+# End time: 16:16:30 on Dec 18,2019, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 135
+Missing log file: /home/roarsk/IN5200_INF5430/IN5200_lab/lab_H20/lab_answer/top/svsim//.sim/_error.log; PLEASE CHECK SIMULATION!

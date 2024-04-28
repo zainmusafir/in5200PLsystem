@@ -1,0 +1,15 @@
+Batch mode simulation case: case_psif_reg with test sequence: psif_reg_test
+Simulation script log file: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_test.sim/questa_transcript.log
+Simulation of psif_reg_test done
+Simulation case: case_psif_reg with test sequence: psif_reg_test FINISHED SUCCESSFULLY.
+Simulation log file: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_test.sim/psif_reg_test.log
+Batch mode simulation case: case_psif_ram with test sequence: psif_ram_test
+Simulation script log file: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_ram/psif_ram_test.sim/questa_transcript.log
+Simulation of psif_ram_test done
+Simulation case: case_psif_ram with test sequence: psif_ram_test FINISHED SUCCESSFULLY.
+Simulation log file: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_ram/psif_ram_test.sim/psif_ram_test.log
+Batch mode simulation case: case_psif_odi_spi with test sequence: psif_odi_spi_test
+Simulation script log file: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_odi_spi/psif_odi_spi_test.sim/questa_transcript.log
+Simulation of psif_odi_spi_test done
+Simulation case: case_psif_odi_spi with test sequence: psif_odi_spi_test FINISHED SUCCESSFULLY.
+Simulation log file: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_odi_spi/psif_odi_spi_test.sim/psif_odi_spi_test.log

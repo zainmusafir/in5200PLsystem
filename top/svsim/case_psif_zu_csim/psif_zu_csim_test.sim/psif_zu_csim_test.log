@@ -1,0 +1,460 @@
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_test.svh(343) @ 0: uvm_test_top [psif_zu_csim_test] Printing the test topology :
+------------------------------------------------------------------------------------------
+Name                              Type                                         Size  Value
+------------------------------------------------------------------------------------------
+uvm_test_top                      psif_zu_csim_test                            -     @498 
+  m_env                           tb_env                                       -     @916 
+    coverage_override_h           coverage_override                            -     @960 
+      recording_detail            integral                                     32    'd1  
+    m_coverage_dti_spi_base       coverage_dti_spi_base                        -     @1002
+      analysis_imp                uvm_analysis_imp                             -     @1009
+        recording_detail          integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_oled_spi_agent              oled_spi_agent                               -     @974 
+      m_monitor                   oled_spi_agent_monitor                       -     @1025
+        ap                        uvm_analysis_port                            -     @1032
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_psif_axi4lite_master_agent  kb_axi4lite_agent                            -     @923 
+      ap                          uvm_analysis_port                            -     @1042
+        recording_detail          integral                                     32    'd1  
+      m_driver                    kb_axi4lite_agent_driver                     -     @1072
+        rsp_port                  uvm_analysis_port                            -     @1087
+          recording_detail        integral                                     32    'd1  
+        seq_item_port             uvm_seq_item_pull_port                       -     @1079
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      m_fcov_monitor              kb_axi4lite_agent_coverage_monitor           -     @1057
+        analysis_imp              uvm_analysis_imp                             -     @1064
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      m_monitor                   kb_axi4lite_agent_monitor                    -     @1050
+        ap                        uvm_analysis_port                            -     @1205
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      sequencer                   uvm_sequencer                                -     @1095
+        rsp_export                uvm_analysis_export                          -     @1102
+          recording_detail        integral                                     32    'd1  
+        seq_item_export           uvm_seq_item_pull_imp                        -     @1196
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+        arbitration_queue         array                                        0     -    
+        lock_queue                array                                        0     -    
+        num_last_reqs             integral                                     32    'd1  
+        num_last_rsps             integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_psif_irq_handler            interrupt_handler_agent                      -     @930 
+      m_driver                    interrupt_handler_driver                     -     @1328
+        rsp_port                  uvm_analysis_port                            -     @1343
+          recording_detail        integral                                     32    'd1  
+        seq_item_port             uvm_seq_item_pull_port                       -     @1335
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      m_sequencer                 uvm_sequencer                                -     @1219
+        rsp_export                uvm_analysis_export                          -     @1226
+          recording_detail        integral                                     32    'd1  
+        seq_item_export           uvm_seq_item_pull_imp                        -     @1320
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+        arbitration_queue         array                                        0     -    
+        lock_queue                array                                        0     -    
+        num_last_reqs             integral                                     32    'd1  
+        num_last_rsps             integral                                     32    'd1  
+      rsp_port                    uvm_analysis_port                            -     @945 
+        recording_detail          integral                                     32    'd1  
+      seq_item_port               uvm_seq_item_pull_port                       -     @937 
+        recording_detail          integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_reset_agent                 reset_agent                                  -     @953 
+      m_driver                    reset_agent_driver                           -     @1357
+        rsp_port                  uvm_analysis_port                            -     @1372
+          recording_detail        integral                                     32    'd1  
+        seq_item_port             uvm_seq_item_pull_port                       -     @1364
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      sequencer                   uvm_sequencer                                -     @1380
+        rsp_export                uvm_analysis_export                          -     @1387
+          recording_detail        integral                                     32    'd1  
+        seq_item_export           uvm_seq_item_pull_imp                        -     @1481
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+        arbitration_queue         array                                        0     -    
+        lock_queue                array                                        0     -    
+        num_last_reqs             integral                                     32    'd1  
+        num_last_rsps             integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_scoreboard_dti_spi_base     scoreboard_dti_spi_base                      -     @995 
+      dti_spi_monitor_out         uvm_tlm_analysis_fifo #(T)                   -     @1495
+        analysis_export           uvm_analysis_imp                             -     @1534
+          recording_detail        integral                                     32    'd1  
+        get_ap                    uvm_analysis_port                            -     @1526
+          recording_detail        integral                                     32    'd1  
+        get_peek_export           uvm_get_peek_imp                             -     @1510
+          recording_detail        integral                                     32    'd1  
+        put_ap                    uvm_analysis_port                            -     @1518
+          recording_detail        integral                                     32    'd1  
+        put_export                uvm_put_imp                                  -     @1502
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_scoreboard_oled_spi_base    scoreboard_oled_spi_base                     -     @988 
+      oled_spi_monitor_out        uvm_tlm_analysis_fifo #(T)                   -     @1542
+        analysis_export           uvm_analysis_imp                             -     @1581
+          recording_detail        integral                                     32    'd1  
+        get_ap                    uvm_analysis_port                            -     @1573
+          recording_detail        integral                                     32    'd1  
+        get_peek_export           uvm_get_peek_imp                             -     @1557
+          recording_detail        integral                                     32    'd1  
+        put_ap                    uvm_analysis_port                            -     @1565
+          recording_detail        integral                                     32    'd1  
+        put_export                uvm_put_imp                                  -     @1549
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_scoreboard_zu_base          scoreboard_zu_aes128                         -     @1017
+      recording_detail            integral                                     32    'd1  
+    m_spi_4wire_agent             spi_4wire_agent                              -     @981 
+      m_driver                    spi_4wire_agent_driver                       -     @1612
+        rsp_port                  uvm_analysis_port                            -     @1627
+          recording_detail        integral                                     32    'd1  
+        seq_item_port             uvm_seq_item_pull_port                       -     @1619
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      m_monitor                   spi_4wire_agent_monitor                      -     @1597
+        ap                        uvm_analysis_port                            -     @1604
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      sequencer                   uvm_sequencer                                -     @1635
+        rsp_export                uvm_analysis_export                          -     @1642
+          recording_detail        integral                                     32    'd1  
+        seq_item_export           uvm_seq_item_pull_imp                        -     @1736
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+        arbitration_queue         array                                        0     -    
+        lock_queue                array                                        0     -    
+        num_last_reqs             integral                                     32    'd1  
+        num_last_rsps             integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    scoreboard_override_h         scoreboard_override                          -     @967 
+      recording_detail            integral                                     32    'd1  
+    recording_detail              integral                                     32    'd1  
+  m_psif_reg_predictor_all        uvm_reg_predictor #(kb_axi4lite_agent_item)  -     @870 
+    bus_in                        uvm_analysis_imp                             -     @877 
+      recording_detail            integral                                     32    'd1  
+    reg_ap                        uvm_analysis_port                            -     @885 
+      recording_detail            integral                                     32    'd1  
+    recording_detail              integral                                     32    'd1  
+  m_psif_reg_predictor_rw         uvm_reg_predictor #(kb_axi4lite_agent_item)  -     @893 
+    bus_in                        uvm_analysis_imp                             -     @900 
+      recording_detail            integral                                     32    'd1  
+    reg_ap                        uvm_analysis_port                            -     @908 
+      recording_detail            integral                                     32    'd1  
+    recording_detail              integral                                     32    'd1  
+  recording_detail                integral                                     32    'd1  
+------------------------------------------------------------------------------------------
+
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(74) @ 0: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] Scoreboard running ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(61) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Module names: SCU
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(61) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Module names: ZU
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(61) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Module names: DTI
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(61) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Module names: ODI
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_ZU_TDATA_CNT
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_ZU_DATA_ENA
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_ZU_BYTE_CNT_ERROR
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_TEMPERATURE_TEST_ENA
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_TEMPERATURE_TEST_DIGIT1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_TEMPERATURE_TEST_DIGIT0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_OLEDBYTE7_4
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_OLEDBYTE3_0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_OLEDBYTE15_12
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_OLEDBYTE11_8
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_FSM_RST
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_DTI_READ_ENA
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: SCU_ALARM_ACK_BUTTON
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ZU_START_DECRYPTION
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ZU_FSM_RST
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ZU_DONE_DECRYPTION
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ZU_DECRYPTION_BYPASS
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: DTI_SPI_TX_FIFO_COUNT
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: DTI_SPI_RX_FIFO_COUNT
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: DTI_SPI_PS_ACCESS_ENA
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: DTI_SPI_LOOP_ENA
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: DTI_SPI_FIFO_TX_WRITE_ENABLE
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: DTI_SPI_ACTIVE
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ODI_PS_ACCESS_ENA
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ODI_OLEDBYTE7_4
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ODI_OLEDBYTE3_0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ODI_OLEDBYTE15_12
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/svsim/case_psif_zu_csim/psif_zu_csim_seq.svh(65) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Register names: ODI_OLEDBYTE11_8
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(169) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write to module SCU with register SCU_ZU_DATA_ENA with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/spi_4wire_seq.svh(17) @ 31000000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_spi_4wire_seq [SPI_4WIRE_SEQ] SPI 4WIRE sequence is started
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 31355000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register SCU_ZU_DATA_ENA with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(169) @ 31355000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write to module SCU with register SCU_DTI_READ_ENA with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 31775000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register SCU_DTI_READ_ENA with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 31775000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x3020100
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 31925000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x7060504
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32015000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xb0a0908
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32105000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xf0e0d0c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32195000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x13121110
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32285000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x17161514
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32375000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x1b1a1918
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32465000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x1f1e1d1c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32555000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x9fc273a5
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32645000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x98c476a1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32735000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x93ce7fa9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32825000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x9cc072a5
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 32915000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xcda85116
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33005000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xdabe4402
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33095000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xc1a45d1a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33185000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xdeba4006
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33275000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xf0df87ae
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33365000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x681bf10f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33455000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xfbd58ea6
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33545000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x6715fc03
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33635000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x48f1e16d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33725000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x924fa56f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33815000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x53ebf875
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33905000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x8d51b873
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 33995000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x7f8256c6
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34085000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x1799a7c9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34175000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xec4c296f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34265000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x8b59d56c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34355000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x753ae23d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34445000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xe7754752
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34535000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xb49ebf27
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34625000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x39cf0754
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34715000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x5f90dc0b
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34805000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x48097bc2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34895000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xa44552ad
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 34985000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x2f1c87c1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35075000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x60a6f545
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35165000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x87d3b217
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35255000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x334d0d30
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35345000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xa820a64
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35435000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x1cf7cf7c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35525000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x54feb4be
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35615000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xf0bbe613
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35705000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xdfa761d2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35795000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xfefa1af0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35885000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x7929a8e7
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 35975000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x4a64a5d7
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36065000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x40e6afb3
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36155000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x71fe4125
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36245000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x2500f59b
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36335000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xd5bb1388
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36425000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xa1c725a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36515000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x99665a4e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36605000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xe04ff2a9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36695000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xaa2b577e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36785000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xeacdf8cd
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36875000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xcc79fc24
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 36965000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0xe97909bf
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 37055000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x3cc21a37
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 37145000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUKEY with value: 0x36de686d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(79) @ 37297500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor address value: 0x2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(80) @ 37297500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor data value: 0xx
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37325000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x3020100
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37415000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x7060504
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37505000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xb0a0908
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37595000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xf0e0d0c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37685000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x13121110
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37775000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x17161514
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37865000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x1b1a1918
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 37955000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x1f1e1d1c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38045000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x9fc273a5
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38135000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x98c476a1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38225000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x93ce7fa9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38315000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x9cc072a5
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38405000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xcda85116
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38495000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xdabe4402
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38585000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xc1a45d1a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38675000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xdeba4006
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38765000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xf0df87ae
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38855000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x681bf10f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 38945000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xfbd58ea6
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39035000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x6715fc03
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39125000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x48f1e16d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39215000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x924fa56f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39305000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x53ebf875
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39395000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x8d51b873
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39485000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x7f8256c6
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39575000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x1799a7c9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39665000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xec4c296f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39755000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x8b59d56c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39845000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x753ae23d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 39935000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xe7754752
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40025000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xb49ebf27
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40115000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x39cf0754
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40205000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x5f90dc0b
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40295000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x48097bc2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40385000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xa44552ad
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40475000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x2f1c87c1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40565000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x60a6f545
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40655000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x87d3b217
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40745000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x334d0d30
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40835000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xa820a64
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 40925000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x1cf7cf7c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41015000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x54feb4be
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41105000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xf0bbe613
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41195000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xdfa761d2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41285000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xfefa1af0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41375000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x7929a8e7
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41465000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x4a64a5d7
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41555000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x40e6afb3
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41645000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x71fe4125
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41735000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x2500f59b
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41825000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xd5bb1388
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 41915000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xa1c725a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42005000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x99665a4e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42095000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xe04ff2a9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42185000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xaa2b577e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42275000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xeacdf8cd
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42365000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xcc79fc24
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42455000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0xe97909bf
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42545000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x3cc21a37
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42635000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUKEY with value: 0x36de686d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 42635000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0x3020100
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42815000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0x3020100
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 42815000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0x7060504
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 42995000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0x7060504
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 42995000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0xb0a0908
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 43175000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0xb0a0908
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 43175000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0xf0e0d0c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 43355000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0xf0e0d0c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(169) @ 43355000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write to module ZU with register ZU_DECRYPTION_BYPASS with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 43685000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register ZU_DECRYPTION_BYPASS with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(169) @ 43685000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write to module ZU with register ZU_START_DECRYPTION with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(79) @ 43697500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor address value: 0x2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(80) @ 43697500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor data value: 0xx
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(83) @ 43809500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES128 decryption start ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 43849500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 43873500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 43897500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 43921500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 3
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 43961500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 4
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 43985500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 5
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44009500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 6
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44033500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 7
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44073500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 8
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(381) @ 44075000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Polling register SCU_ALARM_ACK_BUTTON with value: 0x0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44097500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44121500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44145500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= b
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44185500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44209500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44233500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 44257500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(107) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES128 decryption done
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 3
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 4
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 5
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 6
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 7
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 8
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 9
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= b
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= c
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= d
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(127) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(140) @ 44273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] Decryption OK!
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 44275000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register ZU_DONE_DECRYPTION with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(381) @ 45415000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Polling register ZU_DONE_DECRYPTION with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 45615000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register SCU_ZU_TDATA_CNT with value: 0x10
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 45825000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register SCU_ZU_BYTE_CNT_ERROR with value: 0x0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 46035000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 47185000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 48335000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 49485000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(381) @ 50635000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Polling register SCU_ALARM_ACK_BUTTON with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 50635000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0xc4ba9acc
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 50785000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0xb3501921
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 50875000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0x2b6997b1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(424) @ 50965000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write memory ZUPACKET with value: 0x59cb0eef
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 51145000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0xc4ba9acc
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 51235000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0xb3501921
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 51325000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0x2b6997b1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(488) @ 51415000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check memory ZUPACKET with value: 0x59cb0eef
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(169) @ 51415000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write to module ZU with register ZU_DECRYPTION_BYPASS with value: 0x0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 51745000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register ZU_DECRYPTION_BYPASS with value: 0x0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(169) @ 51745000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Write to module ZU with register ZU_START_DECRYPTION with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(83) @ 51865500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES128 decryption start ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 52135000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 53285000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 54435000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 55585000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(79) @ 56497500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor address value: 0x2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(80) @ 56497500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor data value: 0xx
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 56735000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 57885000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 59035000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 60185000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 61335000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 62485000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(79) @ 62897500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor address value: 0x2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(80) @ 62897500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor data value: 0xx
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 63635000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 64785000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 65935000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 67085000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 68235000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(79) @ 69297500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor address value: 0x2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(80) @ 69297500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor data value: 0xx
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 69385000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 70535000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 71685000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 72835000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 73985000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 75135000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x1, but polling:  0x0 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75201500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 46
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75225500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 41
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75249500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 43
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75273500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 45
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75313500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 20
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75337500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 52
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75361500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 45
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75385500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 43
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75425500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 4f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75449500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 47
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75473500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 4e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75497500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 49
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75537500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 5a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75561500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 45
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75585500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 44
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(93) @ 75609500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AXI4Stream data= 21
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(151) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES128 decryption done
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 46
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 41
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 43
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 45
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 20
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 52
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 45
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 43
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 4f
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 47
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 4e
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 49
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 5a
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 45
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 44
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(171) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] AES C generated answer data= 21
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb/scoreboard_zu_aes128.sv(184) @ 75617500: uvm_test_top.m_env.m_scoreboard_zu_base [scoreboard_zu_aes128] Decryption OK!
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(79) @ 75697500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor address value: 0x2
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/spi_4wire_agent/spi_4wire_agent_monitor.svh(80) @ 75697500: uvm_test_top.m_env.m_spi_4wire_agent.m_monitor [spi_4wire_agent_monitor]  Read 4-wire SPI monitor data value: 0xx
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(381) @ 76285000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Polling register SCU_ALARM_ACK_BUTTON with value: 0x0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(381) @ 76485000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Polling register ZU_DONE_DECRYPTION with value: 0x1
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 76685000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register SCU_ZU_TDATA_CNT with value: 0x10
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(294) @ 76895000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Check register SCU_ZU_BYTE_CNT_ERROR with value: 0x0
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 77105000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 78255000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(379) @ 79405000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Warning: Polling register SCU_ALARM_ACK_BUTTON with value: 0x0, but polling:  0x1 NOT found; still polling ...
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/top/tb_base/base_seq.svh(381) @ 80555000: uvm_test_top.m_env.m_spi_4wire_agent.sequencer@@m_psif_zu_csim_seq [psif_zu_csim_seq] Polling register SCU_ALARM_ACK_BUTTON with value: 0x1
+UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 80555000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/kb_axi4lite_agent/kb_axi4lite_agent_driver.svh(43) @ 80555000: uvm_test_top.m_env.m_psif_axi4lite_master_agent.m_driver [kb_axi4lite_agent_driver:report] 185 AXI4Lite_Agent sequence items
+UVM_INFO /home/roarsk/IN5200/mla/lab_answer/vip/interrupt_handler_agent/interrupt_handler_driver.svh(59) @ 80555000: uvm_test_top.m_env.m_psif_irq_handler.m_driver [interrupt_handler_driver:report] 0 Interrupt_Handler_Agent sequence items

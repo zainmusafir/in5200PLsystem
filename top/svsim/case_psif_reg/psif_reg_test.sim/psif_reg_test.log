@@ -1,0 +1,238 @@
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/base_test.svh(368) @ 0: uvm_test_top [psif_reg_test] Printing the test topology :
+------------------------------------------------------------------------------------------
+Name                              Type                                         Size  Value
+------------------------------------------------------------------------------------------
+uvm_test_top                      psif_reg_test                                -     @493 
+  m_env                           tb_env                                       -     @1000
+    coverage_override_h           coverage_override                            -     @1021
+      recording_detail            integral                                     32    'd1  
+    m_kb_axi4stream_agent         kb_axi4stream_agent                          -     @1042
+      ap                          uvm_analysis_port                            -     @1064
+        recording_detail          integral                                     32    'd1  
+      m_driver                    kb_axi4stream_agent_driver                   -     @1079
+        rsp_port                  uvm_analysis_port                            -     @1094
+          recording_detail        integral                                     32    'd1  
+        seq_item_port             uvm_seq_item_pull_port                       -     @1086
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      m_monitor                   kb_axi4stream_agent_monitor                  -     @1072
+        ap                        uvm_analysis_port                            -     @1212
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      sequencer                   uvm_sequencer                                -     @1102
+        rsp_export                uvm_analysis_export                          -     @1109
+          recording_detail        integral                                     32    'd1  
+        seq_item_export           uvm_seq_item_pull_imp                        -     @1203
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+        arbitration_queue         array                                        0     -    
+        lock_queue                array                                        0     -    
+        num_last_reqs             integral                                     32    'd1  
+        num_last_rsps             integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_oled_spi_agent              oled_spi_agent                               -     @1035
+      m_monitor                   oled_spi_agent_monitor                       -     @1226
+        ap                        uvm_analysis_port                            -     @1233
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_psif_axi4lite_master_agent  kb_axi4lite_agent                            -     @1007
+      ap                          uvm_analysis_port                            -     @1243
+        recording_detail          integral                                     32    'd1  
+      m_driver                    kb_axi4lite_agent_driver                     -     @1273
+        rsp_port                  uvm_analysis_port                            -     @1288
+          recording_detail        integral                                     32    'd1  
+        seq_item_port             uvm_seq_item_pull_port                       -     @1280
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      m_fcov_monitor              kb_axi4lite_agent_coverage_monitor           -     @1258
+        analysis_imp              uvm_analysis_imp                             -     @1265
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      m_monitor                   kb_axi4lite_agent_monitor                    -     @1251
+        ap                        uvm_analysis_port                            -     @1406
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      sequencer                   uvm_sequencer                                -     @1296
+        rsp_export                uvm_analysis_export                          -     @1303
+          recording_detail        integral                                     32    'd1  
+        seq_item_export           uvm_seq_item_pull_imp                        -     @1397
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+        arbitration_queue         array                                        0     -    
+        lock_queue                array                                        0     -    
+        num_last_reqs             integral                                     32    'd1  
+        num_last_rsps             integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_reset_agent                 reset_agent                                  -     @1014
+      m_driver                    reset_agent_driver                           -     @1420
+        rsp_port                  uvm_analysis_port                            -     @1435
+          recording_detail        integral                                     32    'd1  
+        seq_item_port             uvm_seq_item_pull_port                       -     @1427
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      sequencer                   uvm_sequencer                                -     @1443
+        rsp_export                uvm_analysis_export                          -     @1450
+          recording_detail        integral                                     32    'd1  
+        seq_item_export           uvm_seq_item_pull_imp                        -     @1544
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+        arbitration_queue         array                                        0     -    
+        lock_queue                array                                        0     -    
+        num_last_reqs             integral                                     32    'd1  
+        num_last_rsps             integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_scoreboard_oled_spi_base    scoreboard_oled_spi_base                     -     @1049
+      oled_spi_monitor_out        uvm_tlm_analysis_fifo #(T)                   -     @1558
+        analysis_export           uvm_analysis_imp                             -     @1597
+          recording_detail        integral                                     32    'd1  
+        get_ap                    uvm_analysis_port                            -     @1589
+          recording_detail        integral                                     32    'd1  
+        get_peek_export           uvm_get_peek_imp                             -     @1573
+          recording_detail        integral                                     32    'd1  
+        put_ap                    uvm_analysis_port                            -     @1581
+          recording_detail        integral                                     32    'd1  
+        put_export                uvm_put_imp                                  -     @1565
+          recording_detail        integral                                     32    'd1  
+        recording_detail          integral                                     32    'd1  
+      recording_detail            integral                                     32    'd1  
+    m_scoreboard_zu_base          scoreboard_zu_base                           -     @1056
+      recording_detail            integral                                     32    'd1  
+    scoreboard_override_h         scoreboard_override                          -     @1028
+      recording_detail            integral                                     32    'd1  
+    recording_detail              integral                                     32    'd1  
+  m_psif_reg_predictor_all        uvm_reg_predictor #(kb_axi4lite_agent_item)  -     @954 
+    bus_in                        uvm_analysis_imp                             -     @961 
+      recording_detail            integral                                     32    'd1  
+    reg_ap                        uvm_analysis_port                            -     @969 
+      recording_detail            integral                                     32    'd1  
+    recording_detail              integral                                     32    'd1  
+  m_psif_reg_predictor_rw         uvm_reg_predictor #(kb_axi4lite_agent_item)  -     @977 
+    bus_in                        uvm_analysis_imp                             -     @984 
+      recording_detail            integral                                     32    'd1  
+    reg_ap                        uvm_analysis_port                            -     @992 
+      recording_detail            integral                                     32    'd1  
+    recording_detail              integral                                     32    'd1  
+  recording_detail                integral                                     32    'd1  
+------------------------------------------------------------------------------------------
+
+UVM_INFO @ 31000000: reporter@@m_reg_hw_reset_seq [STARTING_SEQ] 
+
+Starting m_reg_hw_reset_seq sequence...
+
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 31000000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ODI.ODI_PS_ACCESS_ENA in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 31145000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ODI.ODI_OLEDBYTE7_4 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 31355000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ODI.ODI_OLEDBYTE3_0 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 31565000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ODI.ODI_OLEDBYTE15_12 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 31775000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ODI.ODI_OLEDBYTE11_8 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 31985000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.DTI.DTI_SPI_TX_FIFO_COUNT in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 32195000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.DTI.DTI_SPI_RX_FIFO_COUNT in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 32405000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.DTI.DTI_SPI_PS_ACCESS_ENA in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 32615000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.DTI.DTI_SPI_LOOP_ENA in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 32825000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.DTI.DTI_SPI_FIFO_TX_WRITE_ENABLE in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 33035000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.DTI.DTI_SPI_ACTIVE in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 33245000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ZU.ZU_START_DECRYPTION in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 33455000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ZU.ZU_FSM_RST in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 33665000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ZU.ZU_DONE_DECRYPTION in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 33875000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.ZU.ZU_DECRYPTION_BYPASS in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 34085000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_ZU_TDATA_CNT in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 34295000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_ZU_DATA_ENA in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 34505000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_ZU_BYTE_CNT_ERROR in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 34715000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_TEMPERATURE_TEST_ENA in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 34925000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_TEMPERATURE_TEST_DIGIT1 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 35135000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_TEMPERATURE_TEST_DIGIT0 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 35345000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_OLEDBYTE7_4 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 35555000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_OLEDBYTE3_0 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 35765000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_OLEDBYTE15_12 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 35975000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_OLEDBYTE11_8 in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 36185000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_FSM_RST in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 36395000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_DTI_READ_ENA in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 36605000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.SCU.SCU_ALARM_ACK_BUTTON in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 36815000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_RESET in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 37025000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_RESET in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 37235000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_PS_TXFIFO_COUNT in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 37445000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_PS_RXFIFO_COUNT in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 37655000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_LOOPBACK in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 37865000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_GT_RESET in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 38075000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_FIFO_TX_WRITE_ENABLE in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 38285000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_CORE_STATUS in map "m_psif_regs_all.top_if_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_hw_reset_seq.svh(113) @ 38495000: reporter@@m_reg_hw_reset_seq [uvm_reg_hw_reset_seq] Verifying reset value of register m_psif_regs_all.AUI.AUI_AURORA_ACCESS_LOOP_ENA in map "m_psif_regs_all.top_if_map"...
+UVM_INFO @ 38705000: reporter@@m_reg_bit_bash_seq [STARTING_SEQ] 
+
+Starting m_reg_bit_bash_seq sequence...
+
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 38705000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.AUI.AUI_RESET in map "m_psif_regs_rw.AUI.AUI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 45425000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.AUI.AUI_AURORA_RESET in map "m_psif_regs_rw.AUI.AUI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 52145000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.AUI.AUI_AURORA_LOOPBACK in map "m_psif_regs_rw.AUI.AUI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 58865000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.AUI.AUI_AURORA_GT_RESET in map "m_psif_regs_rw.AUI.AUI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 65585000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.AUI.AUI_AURORA_FIFO_TX_WRITE_ENABLE in map "m_psif_regs_rw.AUI.AUI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 72305000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.AUI.AUI_AURORA_ACCESS_LOOP_ENA in map "m_psif_regs_rw.AUI.AUI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 79025000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_ZU_DATA_ENA in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 85745000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_TEMPERATURE_TEST_ENA in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 92465000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_TEMPERATURE_TEST_DIGIT1 in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 99185000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_TEMPERATURE_TEST_DIGIT0 in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 105905000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_OLEDBYTE7_4 in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_monitor.svh(62) @ 128957500: uvm_test_top.m_env.m_oled_spi_agent.m_monitor [oled_spi_agent_monitor] OLED SPI monitor write value: 0xae
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 132785000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_OLEDBYTE3_0 in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 159665000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_OLEDBYTE15_12 in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 186545000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_OLEDBYTE11_8 in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 213425000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_FSM_RST in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 220145000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.SCU.SCU_DTI_READ_ENA in map "m_psif_regs_rw.SCU.SCU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 226865000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.ZU.ZU_FSM_RST in map "m_psif_regs_rw.ZU.ZU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 233585000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.ZU.ZU_DECRYPTION_BYPASS in map "m_psif_regs_rw.ZU.ZU_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 240305000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.DTI.DTI_SPI_PS_ACCESS_ENA in map "m_psif_regs_rw.DTI.DTI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 247025000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.DTI.DTI_SPI_LOOP_ENA in map "m_psif_regs_rw.DTI.DTI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 253745000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.DTI.DTI_SPI_FIFO_TX_WRITE_ENABLE in map "m_psif_regs_rw.DTI.DTI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 260465000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.ODI.ODI_PS_ACCESS_ENA in map "m_psif_regs_rw.ODI.ODI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 267185000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.ODI.ODI_OLEDBYTE7_4 in map "m_psif_regs_rw.ODI.ODI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 294065000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.ODI.ODI_OLEDBYTE3_0 in map "m_psif_regs_rw.ODI.ODI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 320945000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.ODI.ODI_OLEDBYTE15_12 in map "m_psif_regs_rw.ODI.ODI_map"...
+UVM_INFO verilog_src/uvm-1.1d/src/reg/sequences/uvm_reg_bit_bash_seq.svh(126) @ 347825000: reporter@@m_reg_bit_bash_seq.reg_single_bit_bash_seq [uvm_reg_bit_bash_seq] Verifying bits in register m_psif_regs_rw.ODI.ODI_OLEDBYTE11_8 in map "m_psif_regs_rw.ODI.ODI_map"...
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(22) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Module names: AUI
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(22) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Module names: SCU
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(22) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Module names: ZU
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(22) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Module names: DTI
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(22) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Module names: ODI
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_RESET
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_RESET
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_PS_TXFIFO_COUNT
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_PS_RXFIFO_COUNT
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_LOOPBACK
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_GT_RESET
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_FIFO_TX_WRITE_ENABLE
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_CORE_STATUS
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: AUI_AURORA_ACCESS_LOOP_ENA
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_ZU_TDATA_CNT
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_ZU_DATA_ENA
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_ZU_BYTE_CNT_ERROR
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_TEMPERATURE_TEST_ENA
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_TEMPERATURE_TEST_DIGIT1
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_TEMPERATURE_TEST_DIGIT0
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_OLEDBYTE7_4
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_OLEDBYTE3_0
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_OLEDBYTE15_12
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_OLEDBYTE11_8
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_FSM_RST
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_DTI_READ_ENA
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: SCU_ALARM_ACK_BUTTON
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ZU_START_DECRYPTION
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ZU_FSM_RST
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ZU_DONE_DECRYPTION
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ZU_DECRYPTION_BYPASS
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: DTI_SPI_TX_FIFO_COUNT
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: DTI_SPI_RX_FIFO_COUNT
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: DTI_SPI_PS_ACCESS_ENA
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: DTI_SPI_LOOP_ENA
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: DTI_SPI_FIFO_TX_WRITE_ENABLE
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: DTI_SPI_ACTIVE
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ODI_PS_ACCESS_ENA
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ODI_OLEDBYTE7_4
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ODI_OLEDBYTE3_0
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ODI_OLEDBYTE15_12
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_seq.svh(26) @ 374705000: reporter@@m_psif_reg_seq [psif_reg_seq] Register names: ODI_OLEDBYTE11_8
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_monitor.svh(62) @ 381737500: uvm_test_top.m_env.m_oled_spi_agent.m_monitor [oled_spi_agent_monitor] OLED SPI monitor write value: 0x8d
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_monitor.svh(62) @ 384367500: uvm_test_top.m_env.m_oled_spi_agent.m_monitor [oled_spi_agent_monitor] OLED SPI monitor write value: 0x14
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_monitor.svh(62) @ 386997500: uvm_test_top.m_env.m_oled_spi_agent.m_monitor [oled_spi_agent_monitor] OLED SPI monitor write value: 0xd9
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_monitor.svh(62) @ 389627500: uvm_test_top.m_env.m_oled_spi_agent.m_monitor [oled_spi_agent_monitor] OLED SPI monitor write value: 0xf1
+UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 675005000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4lite_agent/kb_axi4lite_agent_driver.svh(43) @ 675005000: uvm_test_top.m_env.m_psif_axi4lite_master_agent.m_driver [kb_axi4lite_agent_driver:report] 3067 AXI4Lite_Agent sequence items

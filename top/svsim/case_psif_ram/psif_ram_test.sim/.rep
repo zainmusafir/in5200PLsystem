@@ -1,0 +1,684 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /tb_top/top_reset_if
+=== Design Unit: work.reset_agent_if
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          4         3         1    75.00%
+
+=================================================================================
+=== Instance: /tb_top/top_oled_spi_if
+=== Design Unit: work.oled_spi_agent_if
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         14         9         5    64.28%
+
+=================================================================================
+=== Instance: /tb_top/psif_axi4lite_master_if
+=== Design Unit: work.kb_axi4lite_agent_if
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        312       204       108    65.38%
+
+=================================================================================
+=== Instance: /tb_top/kb_axi4stream_if
+=== Design Unit: work.kb_axi4stream_agent_if
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        158         0       158     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/cru_0
+=== Design Unit: mla_lib.cru(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Conditions                       2         1         1    50.00%
+    Statements                      11        11         0   100.00%
+    Toggles                         28        16        12    57.14%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/G_PS/mla_ps
+=== Design Unit: mla_lib.processor_system(structure)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       1         1         0   100.00%
+    Toggles                         90        74        16    82.22%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/psif_axi4pifb_0
+=== Design Unit: mla_lib.psif_axi4pifb(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        86        42        44    48.83%
+    Conditions                      10         2         8    20.00%
+    Expressions                     15         8         7    53.33%
+    FSM States                       9         9         0   100.00%
+    FSM Transitions                 18        10         8    55.55%
+    Statements                     199       148        51    74.37%
+    Toggles                       2013       695      1318    34.52%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/odi_reg_0
+=== Design Unit: mla_lib.odi_reg(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        74        14        60    18.91%
+    Conditions                       6         0         6     0.00%
+    Expressions                      2         0         2     0.00%
+    Statements                      71        33        38    46.47%
+    Toggles                        944       103       841    10.91%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Initialize/spi_comp/initilize_spi_comp_probe_en
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Initialize/spi_comp/initilize_spi_comp_probe_sdata
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                         32         5        27    15.62%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Initialize/spi_comp
+=== Design Unit: mla_lib.spi_ctrl(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        25        24         1    96.00%
+    Conditions                       4         4         0   100.00%
+    FSM States                       3         3         0   100.00%
+    FSM Transitions                  4         3         1    75.00%
+    Statements                      19        18         1    94.73%
+    Toggles                         71        57        14    80.28%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Initialize/delay_comp
+=== Design Unit: mla_lib.delay(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        20        19         1    95.00%
+    Conditions                       2         2         0   100.00%
+    FSM States                       3         3         0   100.00%
+    FSM Transitions                  4         3         1    75.00%
+    Statements                      11        10         1    90.90%
+    Toggles                         93        41        52    44.08%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Initialize/initialize_probe_init_done
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Initialize
+=== Design Unit: mla_lib.oled_init(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        41        22        19    53.65%
+    FSM States                      27        12        15    44.44%
+    FSM Transitions                 67        14        53    20.89%
+    Statements                      78        34        44    43.58%
+    Toggles                        132        43        89    32.57%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Example/spi_comp/example_spi_comp_probe_en
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Example/spi_comp/example_spi_comp_probe_sdata
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                         32         0        32     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Example/spi_comp
+=== Design Unit: mla_lib.spi_ctrl(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        25        10        15    40.00%
+    Conditions                       4         0         4     0.00%
+    FSM States                       3         1         2    33.33%
+    FSM Transitions                  4         0         4     0.00%
+    Statements                      19         9        10    47.36%
+    Toggles                         71         3        68     4.22%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Example/delay_comp
+=== Design Unit: mla_lib.delay(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        20         8        12    40.00%
+    Conditions                       2         0         2     0.00%
+    FSM States                       3         1         2    33.33%
+    FSM Transitions                  4         0         4     0.00%
+    Statements                      11         4         7    36.36%
+    Toggles                         93         3        90     3.22%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Example/char_lib_comp
+=== Design Unit: mla_lib.ascii_rom(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         1         1         0   100.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         40         2        38     5.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Example/example_probe_alphabet_done_str
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0/Example
+=== Design Unit: mla_lib.oled_ex(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        46         4        42     8.69%
+    FSM States                      30         0        30     0.00%
+    FSM Transitions                 50         0        50     0.00%
+    Statements                     125        21       104    16.80%
+    Toggles                        594         3       591     0.50%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0/oled_ctrl_0
+=== Design Unit: mla_lib.oled_ctrl(behavioral)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        22        15         7    68.18%
+    FSM States                       4         2         2    50.00%
+    FSM Transitions                  6         1         5    16.66%
+    Statements                      11         7         4    63.63%
+    Toggles                        298        16       282     5.36%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/odi_0
+=== Design Unit: mla_lib.odi(str)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         4         4    50.00%
+    Statements                       4         4         0   100.00%
+    Toggles                        994       110       884    11.06%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/dti_0/dti_reg_0
+=== Design Unit: mla_lib.dti_reg(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        44        14        30    31.81%
+    Conditions                       6         0         6     0.00%
+    Expressions                      2         0         2     0.00%
+    Statements                      55        32        23    58.18%
+    Toggles                        516       105       411    20.34%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/dti_0/spictrl_dti
+=== Design Unit: mla_lib.spictrl(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        24         4        20    16.66%
+    Conditions                       6         0         6     0.00%
+    FSM States                       9         1         8    11.11%
+    FSM Transitions                 16         0        16     0.00%
+    Statements                      40        18        22    45.00%
+    Toggles                        195         4       191     2.05%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/dti_0/dti_spi_0
+=== Design Unit: mla_lib.dti_spi(dmy)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         5         0   100.00%
+    Toggles                         66         3        63     4.54%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/dti_0
+=== Design Unit: mla_lib.dti(str)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Expressions                      4         0         4     0.00%
+    Statements                       7         7         0   100.00%
+    Toggles                        576       107       469    18.57%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/zu_reg_0
+=== Design Unit: mla_lib.zu_reg(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        40        14        26    35.00%
+    Conditions                       6         0         6     0.00%
+    Expressions                      2         0         2     0.00%
+    Statements                      57        34        23    59.64%
+    Toggles                        448       103       345    22.99%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/zu_fsm_0
+=== Design Unit: mla_lib.zu_fsm(dmy)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         5         0   100.00%
+    Toggles                         40         3        37     7.50%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0/aes_inv_cipher_probe_ap_clk
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0/aes_inv_cipher_probe_bypass
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0/aes_inv_cipher_probe_ap_start
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0/aes_inv_cipher_probe_ap_done
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0/aes_inv_cipher_probe_out_r_tdata
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                         32         0        32     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0/aes_inv_cipher_probe_out_r_tvalid
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0/aes_inv_cipher_probe_out_r_tready
+=== Design Unit: work.probe_itf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         0         5     0.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0/aes128_inv_cipher_0
+=== Design Unit: mla_lib.aes_inv_cipher(dmy)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       9         9         0   100.00%
+    Toggles                         94         2        92     2.12%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/zu_0
+=== Design Unit: mla_lib.zu(str)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         4         0   100.00%
+    Toggles                        480       238       242    49.58%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/scu_0/scu_reg_0
+=== Design Unit: mla_lib.scu_reg(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       110        14        96    12.72%
+    Conditions                       6         0         6     0.00%
+    Expressions                      2         0         2     0.00%
+    Statements                     102        46        56    45.09%
+    Toggles                       1028       103       925    10.01%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/scu_0/scu_fsm_0
+=== Design Unit: mla_lib.scu_fsm(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        89         7        82     7.86%
+    Conditions                       5         0         5     0.00%
+    Expressions                      2         2         0   100.00%
+    FSM States                       6         1         5    16.66%
+    FSM Transitions                 10         0        10     0.00%
+    Statements                     117        28        89    23.93%
+    Toggles                        580         9       571     1.55%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/scu_0
+=== Design Unit: mla_lib.scu(str)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        22        10        12    45.45%
+    FSM States                       4         1         3    25.00%
+    FSM Transitions                  6         0         6     0.00%
+    Statements                      26        14        12    53.84%
+    Toggles                        794       103       691    12.97%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/aui_0/aui_reg_0
+=== Design Unit: mla_lib.aui_reg(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        62        14        48    22.58%
+    Conditions                       6         0         6     0.00%
+    Expressions                      2         0         2     0.00%
+    Statements                      70        38        32    54.28%
+    Toggles                        584       111       473    19.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/aui_0/aurora_8b10b_0_inst
+=== Design Unit: mla_lib.aurora_8b10b_0(dmy)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      27        27         0   100.00%
+    Toggles                        306         0       306     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/aui_0/aui_auroratxctrl_0
+=== Design Unit: mla_lib.aui_auroratxctrl(dmy)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         5         0   100.00%
+    Toggles                        172         0       172     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/aui_0/aui_aurorarxctrl_0
+=== Design Unit: mla_lib.aui_aurorarxctrl(dmy)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       3         3         0   100.00%
+    Toggles                        234         0       234     0.00%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl/aui_0
+=== Design Unit: mla_lib.aui(str)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12         9         3    75.00%
+    Conditions                       8         4         4    50.00%
+    Expressions                      6         0         6     0.00%
+    Statements                      40        32         8    80.00%
+    Toggles                        902       114       788    12.63%
+
+=================================================================================
+=== Instance: /tb_top/mla_top/mla_pl
+=== Design Unit: mla_lib.core(str)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                       1600       445      1155    27.81%
+
+=================================================================================
+=== Instance: /tb_top/mla_top
+=== Design Unit: mla_lib.top(str)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       9         9         0   100.00%
+    Toggles                        778       226       552    29.04%
+
+=================================================================================
+=== Instance: /tb_top
+=== Design Unit: work.tb_top
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+    Statements                     124        73        51    58.87%
+    Toggles                        400        20       380     5.00%
+
+=================================================================================
+=== Instance: /top_psif_vreguvm_pkg_uvm_rw
+=== Design Unit: work.top_psif_vreguvm_pkg_uvm_rw
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       524        31       493     5.91%
+    Conditions                      83         0        83     0.00%
+    Covergroups                      5        na        na     0.00%
+        Coverpoints/Crosses         15        na        na        na
+            Covergroup Bins         88         0        88     0.00%
+    Statements                     758       280       478    36.93%
+
+=================================================================================
+=== Instance: /top_psif_vreguvm_pkg_uvm
+=== Design Unit: work.top_psif_vreguvm_pkg_uvm
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       718        42       676     5.84%
+    Conditions                     113         0       113     0.00%
+    Covergroups                      5        na        na     0.00%
+        Coverpoints/Crosses         15        na        na        na
+            Covergroup Bins        111         0       111     0.00%
+    Statements                    1045       384       661    36.74%
+
+=================================================================================
+=== Instance: /kb_axi4lite_agent_pkg
+=== Design Unit: work.kb_axi4lite_agent_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       269        61       208    22.67%
+    Conditions                      45         4        41     8.88%
+    Covergroups                      1        na        na    25.00%
+        Coverpoints/Crosses          4        na        na        na
+            Covergroup Bins         14         2        12    14.28%
+    Statements                     334       160       174    47.90%
+
+=================================================================================
+=== Instance: /reset_agent_pkg
+=== Design Unit: work.reset_agent_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        49         6        43    12.24%
+    Conditions                       8         0         8     0.00%
+    Statements                      61        23        38    37.70%
+
+=================================================================================
+=== Instance: /tb_env_base_pkg
+=== Design Unit: work.tb_env_base_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      25        11        14    44.00%
+
+=================================================================================
+=== Instance: /kb_axi4stream_agent_pkg
+=== Design Unit: work.kb_axi4stream_agent_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       244         3       241     1.22%
+    Conditions                      44         0        44     0.00%
+    Statements                     238        33       205    13.86%
+
+=================================================================================
+=== Instance: /oled_spi_agent_pkg
+=== Design Unit: work.oled_spi_agent_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        53        10        43    18.86%
+    Conditions                       8         0         8     0.00%
+    Statements                      80        28        52    35.00%
+
+=================================================================================
+=== Instance: /probe_pkg
+=== Design Unit: work.probe_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         0         2     0.00%
+
+=================================================================================
+=== Instance: /tb_env_pkg
+=== Design Unit: work.tb_env_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       102         0       102     0.00%
+    Conditions                      15         0        15     0.00%
+    Statements                     208        15       193     7.21%
+
+=================================================================================
+=== Instance: /base_seq_pkg
+=== Design Unit: work.base_seq_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       147         0       147     0.00%
+    Conditions                      52         0        52     0.00%
+    Statements                     200         0       200     0.00%
+
+=================================================================================
+=== Instance: /base_test_pkg
+=== Design Unit: work.base_test_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        28         7        21    25.00%
+    Conditions                       2         0         2     0.00%
+    Statements                      70        55        15    78.57%
+
+=================================================================================
+=== Instance: /psif_zu_csim_pkg
+=== Design Unit: work.psif_zu_csim_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        26         0        26     0.00%
+    Conditions                       4         0         4     0.00%
+    Statements                     125         0       125     0.00%
+
+=================================================================================
+=== Instance: /psif_zu_pkg
+=== Design Unit: work.psif_zu_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        26         0        26     0.00%
+    Conditions                       4         0         4     0.00%
+    Statements                     116         0       116     0.00%
+
+=================================================================================
+=== Instance: /psif_dti_spi_loop_pkg
+=== Design Unit: work.psif_dti_spi_loop_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        26         0        26     0.00%
+    Conditions                       4         0         4     0.00%
+    Statements                     100         0       100     0.00%
+
+=================================================================================
+=== Instance: /psif_odi_spi_pkg
+=== Design Unit: work.psif_odi_spi_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        26         0        26     0.00%
+    Conditions                       4         0         4     0.00%
+    Statements                      89         0        89     0.00%
+
+=================================================================================
+=== Instance: /psif_ram_pkg
+=== Design Unit: work.psif_ram_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        13         2    86.66%
+
+=================================================================================
+=== Instance: /psif_reg_pkg
+=== Design Unit: work.psif_reg_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        14         0        14     0.00%
+    Conditions                       2         0         2     0.00%
+    Statements                      45         0        45     0.00%
+
+
+TOTAL COVERGROUP COVERAGE: 2.27%  COVERGROUP TYPES: 11
+
+Total Coverage By Instance (filtered view): 18.12%
+
