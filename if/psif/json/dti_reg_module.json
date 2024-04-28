@@ -1,0 +1,104 @@
+{
+  "base_address": "0x0", 
+  "name": "dti", 
+  "modular": "", 
+  "read_delay": "0", 
+  "access": "RW", 
+  "offset": "0", 
+  "width": "32", 
+  "reset": "0x0", 
+  "interrupts": [], 
+  "reg_group": [
+    {
+      "instances": [
+        {
+          "base": "0x0", 
+          "name": ""
+        }
+      ], 
+      "registers": [
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "spi_fifo_tx_write_enable", 
+          "address": "0x60", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x1", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RO", 
+          "width": "8", 
+          "used": "1", 
+          "name": "spi_active", 
+          "address": "0x64", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RO", 
+          "width": "16", 
+          "used": "9", 
+          "name": "spi_tx_fifo_count", 
+          "address": "0x68", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RO", 
+          "width": "16", 
+          "used": "9", 
+          "name": "spi_rx_fifo_count", 
+          "address": "0x6c", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "spi_loop_ena", 
+          "address": "0x70", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "spi_ps_access_ena", 
+          "address": "0x74", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }
+      ], 
+      "name": "dti"
+    }
+  ], 
+  "constants": [], 
+  "revision_info": {}
+}

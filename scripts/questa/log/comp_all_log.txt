@@ -1,0 +1,5 @@
+------- comp_all.tcl -------
+Reading toolsetupfile file: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/toolsetup.tcl.
+Library psif_lib already exists
+Library mla_lib already exists
+Library tb_mla_lib already exists

@@ -1,0 +1,33 @@
+To perform code coverage analysis:
+
+1. Perform simulation cases for the selected module(s) or for alle modules in batch mode as described in the file: $MLA_DESIGN/top/svsim/READ_ME.
+
+2. The simulations saves coverage data to the database files $MLA_DESIGN/top/svsim/<test case>/<sequence name>.sim/<sequence name>.ucdb and 
+     coverage report files in text and HTML formats in the directory $MLA_DESIGN/top/svsim/<test case>/<sequence name>_html.
+ 
+3. Coverage data for each simulation can be analyzed during interactive simulation or with the Questa simulater in view coverage mode through 
+     the command:
+ 
+     vsim -viewcov $MLA_DESIGN/top/svsim/<test case>/<sequence name>.sim/<sequence name>.ucdb
+
+4. Update "$MLA_DESIGN/scripts/questa/coverage.tcl" script with all coverage database files generated in ucdb format during module simulation.
+
+5. The coverage script may be used in batch mode or in GUI mode with the command:
+
+     $MLA_DESIGN/scripts/questa/coverage.tcl [-coverage_exclude] [-gui] [-help]
+
+     The coverage.tcl script merges coverage from all simulation cases into the core level coverage file
+     $MLA_DESIGN/top/svsim/core_coverage/core_full.ucdb and generates coverage result text and HTML files in the directory $MLA_DESIGN/top/svsim/core_coverage.
+
+     Coverage exclution is implemented through running do files located in the $MLA_DESIGN/top/svsim/core_coverage/coverage_exclude directory with the -coverage_exclude switch.
+     The $MLA_DESIGN/top/svsim/core_coverage/coverage_exclude/run_coverage.do file shall run all module do files run_coverage_<module>.do in the 
+       $MLA_DESIGN/top/svsim/core_coverage/coverage_exclude directory.
+
+     The coverage.tcl script with -coverage_exclude switch also merges coverage from all simulation cases with excluded coverages into the core level coverage file
+     $MLA_DESIGN/top/svsim/core_coverage/core_full_excluded.ucdb and generates coverage result text and HTML files in the directory $MLA_DESIGN/top/svsim/core_coverage.
+
+6. Coverage data can instead of using the -gui switch also be analyzed after batch mode execution of coverage.tcl with the command:
+
+     vsim -viewcov $MLA_DESIGN/top/svsim/core_coverage/core_full.ucdb 
+       or 
+     vsim -viewcov $MLA_DESIGN/top/svsim/core_coverage/core_full_excluded.ucdb

@@ -1,0 +1,59 @@
+[NOTE] generating VHD
+[NOTE] generating HDL package files.
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/packages/psif_pck.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/packages/psif_pck.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/packages/odi
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/packages/dti
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/packages/zu
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/packages/scu
+[NOTE] Generating Axi42Pif-bridge, RTL and entity.
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/axi4pifb/old/psif_axi4pifb_ent_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/axi4pifb/old/psif_axi4pifb_ent_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/axi4pifb/old/psif_axi4pifb_rtl_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/axi4pifb/old/psif_axi4pifb_rtl_v1.2.vhd
+[NOTE] Generating RegModule, RTL and entity.
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/odi/old/psif_odi_reg_ent_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/odi/old/psif_odi_reg_ent_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/odi/old/psif_odi_reg_rtl_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/odi/old/psif_odi_reg_rtl_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/dti/old/psif_dti_reg_ent_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/dti/old/psif_dti_reg_ent_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/dti/old/psif_dti_reg_rtl_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/dti/old/psif_dti_reg_rtl_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/zu/old/psif_zu_reg_ent_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/zu/old/psif_zu_reg_ent_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/zu/old/psif_zu_reg_rtl_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/zu/old/psif_zu_reg_rtl_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/scu/old/psif_scu_reg_ent_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/scu/old/psif_scu_reg_ent_v1.2.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/scu/old/psif_scu_reg_rtl_v1.2.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/scu/old/psif_scu_reg_rtl_v1.2.vhd
+[NOTE] Generating Wrapper structure for pif-bus
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/wrapper/psif_wrapper_ent.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/wrapper/psif_wrapper_ent.vhd
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/wrapper/psif_wrapper_str.vhd
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3/if/psif/hdl/pif/wrapper/psif_wrapper_str.vhd
+[NOTE] Generating Axi42Pif-bridge, RTL and entity.
+[NOTE] Generating RegModule, RTL and entity.
+[NOTE] generating HEADER
+[NOTE] running C header file generating.
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3//if/psif/header/psif_register_lookup_address.h
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3//if/psif/header/psif_register_lookup_address.h
+[NOTE] checking file : /home/roarsk/IN5200/mla/in5200_lab3//if/psif/header/psif_register_lookup.h
+[NOTE] backing up : /home/roarsk/IN5200/mla/in5200_lab3//if/psif/header/psif_register_lookup.h
+[NOTE] generating CSV
+[NOTE] generating CSV files.
+[NOTE] 
+NOTE! To compile CSV for questa :
+/tools/questa_r/10.4b/questasim/RUVM_4.6/vreguvm -uvmout top_PSIF_vreguvm_pkg_uvm.sv -csvin top_PSIF_regs.csv -csvin top_PSIF_blocks.csv -csvin top_PSIF_maps.csv -csvin top_PSIF_mems.csv -block top_PSIF
+
+NOTE! To compile CSV for questa with RW setting:
+/tools/questa_r/10.4b/questasim/RUVM_4.6/vreguvm -uvmout top_PSIF_vreguvm_pkg_uvm_rw.sv -csvin top_PSIF_regs_rw.csv -csvin top_PSIF_blocks_rw.csv -csvin top_PSIF_maps_rw.csv -csvin top_PSIF_mems_rw.csv -block top_PSIF_rw
+
+[NOTE] generating DOC
+[NOTE] generating system verilog testbench
+============= END =============
+ Warnings: 0
+ Errors: 0
+ Critical: 0
+===============================

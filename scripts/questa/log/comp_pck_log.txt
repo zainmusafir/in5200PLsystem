@@ -1,0 +1,65 @@
+
+------- comp_pck.tcl -------
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:00 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/packages/zedboard_target_pck.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package target_pck
+End time: 10:48:00 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:00 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/psif_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/packages/psif_pck.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package psif_pck
+End time: 10:48:00 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:00 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/psif_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/packages/psif_odi_pck.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package odi_pck
+End time: 10:48:00 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:00 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/psif_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/packages/psif_dti_pck.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dti_pck
+End time: 10:48:00 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:00 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/psif_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/packages/psif_zu_pck.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package zu_pck
+End time: 10:48:00 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:00 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/psif_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/packages/psif_scu_pck.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package scu_pck
+End time: 10:48:00 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:00 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/psif_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/packages/psif_aui_pck.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package aui_pck
+End time: 10:48:01 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1

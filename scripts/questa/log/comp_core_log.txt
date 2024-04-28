@@ -1,0 +1,437 @@
+
+------- comp_core.tcl -------
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:05 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/cru/hdl/cru_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cru
+End time: 10:48:05 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:05 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/cru/hdl/cru_rtl.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture rtl of cru
+-- Loading entity cru
+End time: 10:48:06 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:06 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/ascii_rom.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ascii_rom
+-- Compiling architecture behavioral of ascii_rom
+End time: 10:48:06 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:06 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/delay.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity delay
+-- Compiling architecture behavioral of delay
+End time: 10:48:06 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:06 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/oled_ctrl.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity oled_ctrl
+-- Compiling architecture behavioral of oled_ctrl
+End time: 10:48:06 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:06 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/oled_ex.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity oled_ex
+-- Compiling architecture behavioral of oled_ex
+** Warning: /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/oled_ex.vhd(145): (vcom-1013) Initial value of "all_screen_lines" depends on value of signal "screen_slv".
+End time: 10:48:06 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:06 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/oled_init.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity oled_init
+-- Compiling architecture behavioral of oled_init
+End time: 10:48:06 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:06 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/spi_ctrl.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity spi_ctrl
+-- Compiling architecture behavioral of spi_ctrl
+End time: 10:48:06 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:06 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/odi_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package psif_pck
+-- Loading package odi_pck
+-- Compiling entity odi
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/odi/hdl/odi_str.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture str of odi
+-- Loading package psif_pck
+-- Loading package odi_pck
+-- Loading entity odi
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/dti/hdl/dti_spi_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dti_spi
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/dti/hdl/dti_spi_dmy.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Compiling architecture dmy of dti_spi
+-- Loading entity dti_spi
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/dti/hdl/dti_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package psif_pck
+-- Loading package dti_pck
+-- Compiling entity dti
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/dti/hdl/dti_str.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture str of dti
+-- Loading package psif_pck
+-- Loading package dti_pck
+-- Loading entity dti
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/dti/hdl/spictrl_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity spictrl
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/dti/hdl/spictrl_rtl.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Compiling architecture rtl of spictrl
+-- Loading entity spictrl
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/zu/hdl/zu_fsm_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package zu_pck
+-- Compiling entity zu_fsm
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/zu/hdl/zu_fsm_dmy.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package zu_pck
+-- Compiling architecture dmy of zu_fsm
+-- Loading entity zu_fsm
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/zu/hdl/zu_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package psif_pck
+-- Loading package zu_pck
+-- Compiling entity zu
+End time: 10:48:07 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:07 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/zu/hdl/zu_str.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture str of zu
+-- Loading package psif_pck
+-- Loading package zu_pck
+-- Loading entity zu
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/scu/hdl/scu_fsm_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package zu_pck
+-- Compiling entity scu_fsm
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/scu/hdl/scu_fsm_rtl.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package scu_pck
+-- Compiling architecture rtl of scu_fsm
+-- Loading package zu_pck
+-- Loading entity scu_fsm
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/scu/hdl/scu_edge_regenerator_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity scu_edge_regenerator
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/scu/hdl/scu_edge_regenerator_rtl.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture rtl of scu_edge_regenerator
+-- Loading entity scu_edge_regenerator
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/scu/hdl/scu_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package psif_pck
+-- Loading package scu_pck
+-- Compiling entity scu
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/scu/hdl/scu_str.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture str of scu
+-- Loading package psif_pck
+-- Loading package scu_pck
+-- Loading entity scu
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/aui/hdl/aui_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package psif_pck
+-- Compiling entity aui
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/aui/hdl/aui_aurorarxctrl_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity aui_aurorarxctrl
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/aui/hdl/aui_aurorarxctrl_dmy.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Compiling architecture dmy of aui_aurorarxctrl
+-- Loading entity aui_aurorarxctrl
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/aui/hdl/aui_auroratxctrl_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity aui_auroratxctrl
+End time: 10:48:08 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:08 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/aui/hdl/aui_auroratxctrl_dmy.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Compiling architecture dmy of aui_auroratxctrl
+-- Loading entity aui_auroratxctrl
+End time: 10:48:09 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:09 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/aui/hdl/aurora_8b10b_0_dmy.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity aurora_8b10b_0
+-- Compiling architecture dmy of aurora_8b10b_0
+End time: 10:48:09 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:09 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/aui/hdl/aui_str.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Loading package aui_pck
+-- Compiling architecture str of aui
+-- Loading entity aui
+End time: 10:48:09 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:09 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/ip/processor_system/zedboard/processor_system_dummy/processor_system_dmy.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity processor_system
+-- Compiling architecture STRUCTURE of processor_system
+End time: 10:48:09 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:09 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/hdl/core_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Compiling entity core
+End time: 10:48:09 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:09 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/core/hdl/core_str.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Loading package odi_pck
+-- Loading package dti_pck
+-- Compiling architecture str of core
+-- Loading entity core
+End time: 10:48:09 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:09 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/hdl/top_ent.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package target_pck
+-- Compiling entity top
+End time: 10:48:10 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+** Warning: (vcom-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:10 on Oct 03,2023
+vcom -2008 -nologo -linedebug "+acc=nprv" -fsmdebug "+cover" -modelsimini /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/scripts/questa/modelsim.ini -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/hdl/top_str.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package psif_pck
+-- Loading package target_pck
+-- Compiling architecture str of top
+-- Loading entity top
+End time: 10:48:10 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1

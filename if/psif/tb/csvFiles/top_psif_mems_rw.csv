@@ -1,0 +1,3 @@
+ Memory  Name , Memory  Description , Memory  Address , Memory  Width , Memory  Range , Memory  Access , Memory  Constraints 
+ ZUPACKET_mem ,  , 0x600000 , 32 , 512 , RW ,  
+ ZUKEY_mem ,  , 0x800000 , 32 , 512 , RW ,  

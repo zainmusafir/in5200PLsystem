@@ -1,0 +1,2 @@
+------- comp_all.tcl -------
+Reading toolsetupfile file: ”/uio/hume/student-u01/mohammzf/LISP/in5200_lab3”/scripts/toolsetup.tcl.

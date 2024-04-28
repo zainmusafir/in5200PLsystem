@@ -1,0 +1,27 @@
+
+To perform Questa compilation:
+
+1. The command "./comp_all.tcl -help" returns the usage with options.
+
+2. To compile the complete design with testbench and test cases run the command "./comp_all.tcl ZEDBOARD SETUP_KBAXI4LITE"
+
+3. To only compile the testbench and test cases run the command "./comp_all_tb.tcl ZEDBOARD SETUP_KBAXI4LITE"
+
+
+To perform Questa simulation:
+
+5. User must select target equal ZEDBOARD (i.e. currently ZEDBOARD only available) and a test case with sequence.
+   Usage: ./simulate.tcl <target> <test case> <sequence> [-gui] [-help]
+
+6. Example: "$MLA_DESIGN/scripts/questa/simulate.tcl  ZEDBOARD  case_psif_reg  psif_reg_test  -gui"
+
+7. Simulation results including coverage data is written to the selected test case simulation directory:
+   $MLA_DESIGN/top/svsim/case_<test>/<test>.sim.
+
+8. Example: See the log file "top/svsim/case_psif_reg/psif_reg_test.sim/psif_reg_test.log" after running the simulation above.
+   Errors are written to the file "top/svsim/case_psif_reg/psif_reg_test.sim/psif_reg_test_error.log", and is empty when no errors have
+   been found in the simulation.
+
+9. Perform all simulations in batch mode with ./simulate_all.tcl <target> [-help]
+
+10. Example "$MLA_DESIGN/scripts/questa/simulate_all.tcl  ZEDBOARD"

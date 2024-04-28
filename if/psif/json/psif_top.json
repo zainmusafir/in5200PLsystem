@@ -1,0 +1,119 @@
+{
+  "name": "psif", 
+  "project_info": {
+    "designer": "Roar Skogstrom", 
+    "name": "mla", 
+    "description": [
+      "Master Lab Answer unit"
+    ]
+  }, 
+  "constants": [
+    {
+      "type": "string(1 to 4)", 
+      "name": "JUST_A_TEST", 
+      "value": "\"abcd\"", 
+      "description": "a"
+    }, 
+    {
+      "type": "std_logic_vector(31 downto 0)", 
+      "name": "JUST_A_TEST2", 
+      "value": "x\"00000000\"", 
+      "description": "a"
+    }, 
+    {
+      "type": "std_logic_vector(7 downto 0)", 
+      "name": "JUST_A_TEST3", 
+      "value": "(0 => '1', others => '0')", 
+      "description": "a"
+    }
+  ], 
+  "technical_info": {
+    "address_length": "32", 
+    "reset_type": "async", 
+    "data_length": "32", 
+    "interface": "pif", 
+    "offset": "4", 
+    "debug": "true", 
+    "base_Address": "0"
+  }, 
+  "rams": [
+    {
+      "description": [
+        ""
+      ], 
+      "access": "WF", 
+      "width": "32", 
+      "depth": "2048", 
+      "address": "0x200000", 
+      "name": "dtispitxfifo"
+    }, 
+    {
+      "description": [
+        ""
+      ], 
+      "access": "RF", 
+      "width": "32", 
+      "depth": "2048", 
+      "address": "0x400000", 
+      "name": "dtispirxfifo"
+    }, 
+    {
+      "description": [
+        ""
+      ], 
+      "access": "RW", 
+      "width": "32", 
+      "depth": "512", 
+      "address": "0x600000", 
+      "name": "zupacket"
+    }, 
+    {
+      "description": [
+        ""
+      ], 
+      "access": "RW", 
+      "width": "32", 
+      "depth": "512", 
+      "address": "0x800000", 
+      "name": "zukey"
+    }
+  ], 
+  "reg_modules": [
+    {
+      "module_name": "odi", 
+      "instances": [
+        {
+          "base": "0x10000", 
+          "name": "odi"
+        }
+      ]
+    }, 
+    {
+      "module_name": "dti", 
+      "instances": [
+        {
+          "base": "0x20000", 
+          "name": "dti"
+        }
+      ]
+    }, 
+    {
+      "module_name": "zu", 
+      "instances": [
+        {
+          "base": "0x30000", 
+          "name": "zu"
+        }
+      ]
+    }, 
+    {
+      "module_name": "scu", 
+      "instances": [
+        {
+          "base": "0x40000", 
+          "name": "scu"
+        }
+      ]
+    }
+  ]
+}

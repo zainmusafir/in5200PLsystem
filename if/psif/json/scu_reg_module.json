@@ -1,0 +1,195 @@
+{
+  "base_address": "0x0", 
+  "name": "scu", 
+  "modular": "", 
+  "read_delay": "0", 
+  "access": "RW", 
+  "offset": "0", 
+  "width": "32", 
+  "reset": "0x0", 
+  "interrupts": [], 
+  "reg_group": [
+    {
+      "instances": [
+        {
+          "base": "0x0", 
+          "name": ""
+        }
+      ], 
+      "registers": [
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "zu_data_ena", 
+          "address": "0x0", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "dti_read_ena", 
+          "address": "0x4", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "fsm_rst", 
+          "address": "0x8", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RO", 
+          "width": "8", 
+          "used": "1", 
+          "name": "alarm_ack_button", 
+          "address": "0xc", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte3_0", 
+          "address": "0x10", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte7_4", 
+          "address": "0x14", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte11_8", 
+          "address": "0x18", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte15_12", 
+          "address": "0x1c", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RO", 
+          "width": "8", 
+          "used": "8", 
+          "name": "zu_tdata_cnt", 
+          "address": "0x20", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RO", 
+          "width": "8", 
+          "used": "1", 
+          "name": "zu_byte_cnt_error", 
+          "address": "0x24", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "temperature_test_ena", 
+          "address": "0x28", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "4", 
+          "name": "temperature_test_digit0", 
+          "address": "0x2C", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "4", 
+          "name": "temperature_test_digit1", 
+          "address": "0x30", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }
+      ], 
+      "name": "scu"
+    }
+  ], 
+  "constants": [], 
+  "revision_info": {}
+}

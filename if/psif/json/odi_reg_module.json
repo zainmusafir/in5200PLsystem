@@ -1,0 +1,91 @@
+{
+  "base_address": "0x0", 
+  "name": "odi", 
+  "modular": "", 
+  "read_delay": "0", 
+  "access": "RW", 
+  "offset": "0", 
+  "width": "32", 
+  "reset": "0x0", 
+  "interrupts": [], 
+  "reg_group": [
+    {
+      "instances": [
+        {
+          "base": "0x0000", 
+          "name": ""
+        }
+      ], 
+      "registers": [
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte3_0", 
+          "address": "0x60", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x21202020", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte7_4", 
+          "address": "0x64", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x20212020", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte11_8", 
+          "address": "0x68", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x20202120", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "32", 
+          "used": "32", 
+          "name": "oledbyte15_12", 
+          "address": "0x6c", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x20202021", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "ps_access_ena", 
+          "address": "0x88", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            ""
+          ]
+        }
+      ], 
+      "name": "odi"
+    }
+  ], 
+  "constants": [], 
+  "revision_info": {}
+}

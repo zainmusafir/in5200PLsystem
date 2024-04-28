@@ -1,0 +1,7 @@
+ Memory  Name , Memory  Description , Memory  Address , Memory  Width , Memory  Range , Memory  Access , Memory  Constraints 
+ DTISPITXFIFO_mem ,  , 0x200000 , 32 , 2048 , RW ,  
+ DTISPIRXFIFO_mem ,  , 0x400000 , 32 , 2048 , RO ,  
+ ZUPACKET_mem ,  , 0x600000 , 32 , 512 , RW ,  
+ ZUKEY_mem ,  , 0x800000 , 32 , 512 , RW ,  
+ AUIAURORATXFIFO_mem ,  , 0xA00000 , 32 , 512 , RW ,  
+ AUIAURORARXFIFO_mem ,  , 0xC00000 , 32 , 512 , RO ,  

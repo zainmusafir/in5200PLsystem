@@ -1,0 +1,291 @@
+
+------- comp_tb.tcl -------
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:10 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/tb/csvFiles/top_psif_vreguvm_pkg_uvm.sv 
+-- Compiling package top_psif_vreguvm_pkg_uvm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/tb/csvFiles/top_psif_vreguvm_pkg_uvm.sv(26): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:11 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:11 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/tb/csvFiles/top_psif_vreguvm_pkg_uvm_rw.sv 
+-- Compiling package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/if/psif/tb/csvFiles/top_psif_vreguvm_pkg_uvm_rw.sv(26): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:11 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:11 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/reset_agent/reset_agent_if.sv 
+-- Compiling interface reset_agent_if
+
+Top level modules:
+	--none--
+End time: 10:48:11 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:11 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/reset_agent/reset_agent_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/reset_agent" 
+-- Compiling package reset_agent_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/reset_agent/reset_agent_pkg.sv(7): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+End time: 10:48:11 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+--> Compiling SETUP_KBAXI4LITE  <--
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:11 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4lite_agent/typedef_pkg.sv 
+-- Compiling package typedef_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:12 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:12 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4lite_agent/kb_axi4lite_agent_if.sv 
+-- Compiling package kb_axi4lite_agent_if_sv_unit
+-- Importing package typedef_pkg
+-- Compiling interface kb_axi4lite_agent_if
+
+Top level modules:
+	--none--
+End time: 10:48:12 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:12 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4lite_agent/kb_axi4lite_agent_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4lite_agent" 
+-- Compiling package kb_axi4lite_agent_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4lite_agent/kb_axi4lite_agent_pkg.sv(7): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package typedef_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:12 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+--> Compiling SETUP_KBAXI4STREAM  <--
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:12 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4stream_agent/kb_axi4stream_typedef_pkg.sv 
+-- Compiling package kb_axi4stream_typedef_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:12 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:12 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4stream_agent/kb_axi4stream_agent_if.sv 
+-- Compiling interface kb_axi4stream_agent_if
+
+Top level modules:
+	--none--
+End time: 10:48:12 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:12 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4stream_agent/kb_axi4stream_agent_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4stream_agent" 
+-- Compiling package kb_axi4stream_agent_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/kb_axi4stream_agent/kb_axi4stream_agent_pkg.sv(4): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package kb_axi4stream_typedef_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:13 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:13 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_if.sv 
+-- Compiling interface oled_spi_agent_if
+
+Top level modules:
+	--none--
+End time: 10:48:13 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:13 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent" 
+-- Compiling package oled_spi_agent_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/vip/oled_spi_agent/oled_spi_agent_pkg.sv(7): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+End time: 10:48:13 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:13 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/probe_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base" 
+-- Compiling package probe_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface probe_itf
+-- Importing package probe_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:14 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+--> Compiling testbench  <--
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:14 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb/tb_top_core_odi_oled_ctrl_bind.sv -mfcu -cuname tb_top_core_odi_oled_ctrl_bind 
+-- Compiling package tb_top_core_odi_oled_ctrl_bind
+
+Top level modules:
+	--none--
+End time: 10:48:14 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:14 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb/tb_top_core_zu_aes128_bind.sv -mfcu -cuname tb_top_core_zu_aes128_bind 
+-- Compiling package tb_top_core_zu_aes128_bind
+
+Top level modules:
+	--none--
+End time: 10:48:14 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:14 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/axi4params_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base" 
+-- Compiling package axi4params_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/axi4params_pkg.sv(3): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: (vlog-2292) An included file is associated with a closed UVM package, but no closed UVM package was imported
+
+Top level modules:
+	--none--
+End time: 10:48:14 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:14 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/tb_env_base_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base" 
+-- Compiling package tb_env_base_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/tb_env_base_pkg.sv(14): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:14 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:14 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb/tb_env_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb" 
+-- Compiling package tb_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb/tb_env_pkg.sv(4): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:15 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:15 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/base_test_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base" 
+-- Compiling package base_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package reset_agent_pkg
+-- Importing package oled_spi_agent_pkg
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/base_test_pkg.sv(25): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:15 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:15 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/base_seq_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base" 
+-- Compiling package base_seq_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package axi4params_pkg
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/base_seq_pkg.sv(24): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:16 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:16 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base/probe_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb_base" 
+-- Compiling package probe_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface probe_itf
+-- Importing package probe_pkg
+
+Top level modules:
+	--none--
+End time: 10:48:16 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1

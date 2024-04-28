@@ -1,0 +1,78 @@
+{
+  "base_address": "0x0", 
+  "name": "zu", 
+  "modular": "", 
+  "read_delay": "0", 
+  "access": "RW", 
+  "offset": "0", 
+  "width": "32", 
+  "reset": "0x0", 
+  "interrupts": [], 
+  "reg_group": [
+    {
+      "instances": [
+        {
+          "base": "0x0", 
+          "name": ""
+        }
+      ], 
+      "registers": [
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "decryption_bypass", 
+          "address": "0x0", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x1", 
+          "description": [
+            "Data packet NOT decrypted; just passed through"
+          ]
+        }, 
+        {
+          "access": "WS", 
+          "width": "8", 
+          "used": "1", 
+          "name": "start_decryption", 
+          "address": "0x4", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            "Start decryption"
+          ]
+        }, 
+        {
+          "access": "RO", 
+          "width": "8", 
+          "used": "1", 
+          "name": "done_decryption", 
+          "address": "0x8", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x1", 
+          "description": [
+            ""
+          ]
+        }, 
+        {
+          "access": "RW", 
+          "width": "8", 
+          "used": "1", 
+          "name": "fsm_rst", 
+          "address": "0xc", 
+          "fields": [], 
+          "signal": "", 
+          "reset": "0x0", 
+          "description": [
+            "Reset ZU FSM that controls decryption HLS IP."
+          ]
+        }
+      ], 
+      "name": "zu"
+    }
+  ], 
+  "constants": [], 
+  "revision_info": {}
+}

@@ -1,0 +1,241 @@
+
+------- comp_tbseq.tcl -------
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:16 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg" 
+-- Compiling package psif_reg_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package base_test_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package base_seq_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_reg/psif_reg_pkg.sv(10): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:17 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:17 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_ram/psif_ram_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_ram" 
+-- Compiling package psif_ram_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package base_test_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package base_seq_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_ram/psif_ram_pkg.sv(10): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:17 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:17 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_odi_spi/psif_odi_spi_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_odi_spi" 
+-- Compiling package psif_odi_spi_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package base_test_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package base_seq_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_odi_spi/psif_odi_spi_pkg.sv(10): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:18 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:18 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_scu/psif_scu_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_scu" 
+-- Compiling package psif_scu_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package base_test_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package base_seq_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_scu/psif_scu_pkg.sv(10): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:18 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:18 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_dti_spi_loop/psif_dti_spi_loop_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_dti_spi_loop" 
+-- Compiling package psif_dti_spi_loop_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package base_test_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package base_seq_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_dti_spi_loop/psif_dti_spi_loop_pkg.sv(11): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:19 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:19 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_zu/psif_zu_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_zu" 
+-- Compiling package psif_zu_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package base_test_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package base_seq_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_zu/psif_zu_pkg.sv(12): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:19 on Oct 03,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:19 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_zu_csim/psif_zu_csim_pkg.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_zu_csim" 
+-- Compiling package psif_zu_csim_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package oled_spi_agent_pkg
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package reset_agent_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package base_test_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package base_seq_pkg
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/svsim/case_psif_zu_csim/psif_zu_csim_pkg.sv(12): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+End time: 10:48:20 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+** Warning: (vlog-13379) The use of compiler option -linedebug is deprecated. This option will be removed in future releases.
+Start time: 10:48:20 on Oct 03,2023
+vlog -timescale 1ns/1ps -L unisim -L unimacro -linedebug -assertdebug "+acc=npr" "+cover" -work /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/libs/tb_mla_lib "+define+SETUP_KBAXI4LITE" /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb/tb_top_beh.sv "+incdir+/uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb" 
+** Note: (vlog-2286) /uio/hume/student-u01/mohammzf/LISP/in5200_lab3/top/tb/tb_top_beh.sv(1): Using implicit +incdir+/uio/kant/ifi-project12/nanus/eda/Mentor/2020_2021/QuestaCore/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling module tb_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package base_test_pkg
+-- Importing package kb_axi4lite_agent_pkg
+-- Importing package typedef_pkg
+-- Importing package reset_agent_pkg
+-- Importing package oled_spi_agent_pkg
+-- Importing package tb_env_pkg
+-- Importing package probe_pkg
+-- Importing package tb_top_core_odi_oled_ctrl_bind
+-- Importing package tb_top_core_zu_aes128_bind
+-- Importing package kb_axi4stream_agent_pkg
+-- Importing package kb_axi4stream_typedef_pkg
+-- Importing package tb_env_base_pkg
+-- Importing package axi4params_pkg
+-- Importing package top_psif_vreguvm_pkg_uvm
+-- Importing package top_psif_vreguvm_pkg_uvm_rw
+-- Importing package psif_reg_pkg
+-- Importing package base_seq_pkg
+-- Importing package psif_ram_pkg
+-- Importing package psif_odi_spi_pkg
+-- Importing package psif_scu_pkg
+-- Importing package psif_dti_spi_loop_pkg
+-- Importing package psif_zu_pkg
+-- Importing package psif_zu_csim_pkg
+
+Top level modules:
+	tb_top
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+End time: 10:48:21 on Oct 03,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2

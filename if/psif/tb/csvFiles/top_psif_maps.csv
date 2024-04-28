@@ -1,0 +1,50 @@
+ Block  Name , BlockMap  Name , BlockMap  Description , BlockMap  is  default , BlockMap  Address  Offset , BlockMap  Address  Mode , BlockMap  Word  Bytes , BlockMap  Endian , BlockMap  Instance  Name , BlockMap  Instance  Address , BlockMap  Instance  Access 
+ ODI_module , ODI_map ,  , TRUE ,  , BYTE ,  ,  , ODI_OLEDBYTE3_0 , 0x00000060 , RW 
+ ODI_module , ODI_map ,  ,  ,  , BYTE ,  ,  , ODI_OLEDBYTE7_4 , 0x00000064 , RW 
+ ODI_module , ODI_map ,  ,  ,  , BYTE ,  ,  , ODI_OLEDBYTE11_8 , 0x00000068 , RW 
+ ODI_module , ODI_map ,  ,  ,  , BYTE ,  ,  , ODI_OLEDBYTE15_12 , 0x0000006c , RW 
+ ODI_module , ODI_map ,  ,  ,  , BYTE ,  ,  , ODI_PS_ACCESS_ENA , 0x00000088 , RW 
+ DTI_module , DTI_map ,  , TRUE ,  , BYTE ,  ,  , DTI_SPI_FIFO_TX_WRITE_ENABLE , 0x00000060 , RW 
+ DTI_module , DTI_map ,  ,  ,  , BYTE ,  ,  , DTI_SPI_ACTIVE , 0x00000064 , RO 
+ DTI_module , DTI_map ,  ,  ,  , BYTE ,  ,  , DTI_SPI_TX_FIFO_COUNT , 0x00000068 , RO 
+ DTI_module , DTI_map ,  ,  ,  , BYTE ,  ,  , DTI_SPI_RX_FIFO_COUNT , 0x0000006c , RO 
+ DTI_module , DTI_map ,  ,  ,  , BYTE ,  ,  , DTI_SPI_LOOP_ENA , 0x00000070 , RW 
+ DTI_module , DTI_map ,  ,  ,  , BYTE ,  ,  , DTI_SPI_PS_ACCESS_ENA , 0x00000074 , RW 
+ ZU_module , ZU_map ,  , TRUE ,  , BYTE ,  ,  , ZU_DECRYPTION_BYPASS , 0x00000000 , RW 
+ ZU_module , ZU_map ,  ,  ,  , BYTE ,  ,  , ZU_START_DECRYPTION , 0x00000004 , RW 
+ ZU_module , ZU_map ,  ,  ,  , BYTE ,  ,  , ZU_DONE_DECRYPTION , 0x00000008 , RO 
+ ZU_module , ZU_map ,  ,  ,  , BYTE ,  ,  , ZU_FSM_RST , 0x0000000c , RW 
+ SCU_module , SCU_map ,  , TRUE ,  , BYTE ,  ,  , SCU_ZU_DATA_ENA , 0x00000000 , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_DTI_READ_ENA , 0x00000004 , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_FSM_RST , 0x00000008 , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_ALARM_ACK_BUTTON , 0x0000000c , RO 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_OLEDBYTE3_0 , 0x00000010 , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_OLEDBYTE7_4 , 0x00000014 , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_OLEDBYTE11_8 , 0x00000018 , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_OLEDBYTE15_12 , 0x0000001c , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_ZU_TDATA_CNT , 0x00000020 , RO 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_ZU_BYTE_CNT_ERROR , 0x00000024 , RO 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_TEMPERATURE_TEST_ENA , 0x00000028 , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_TEMPERATURE_TEST_DIGIT0 , 0x0000002c , RW 
+ SCU_module , SCU_map ,  ,  ,  , BYTE ,  ,  , SCU_TEMPERATURE_TEST_DIGIT1 , 0x00000030 , RW 
+ AUI_module , AUI_map ,  , TRUE ,  , BYTE ,  ,  , AUI_RESET , 0x00001020 , RW 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_CORE_STATUS , 0x0000103c , RO 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_LOOPBACK , 0x00001040 , RW 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_RESET , 0x00001044 , RW 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_GT_RESET , 0x00001048 , RW 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_PS_TXFIFO_COUNT , 0x0000104c , RO 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_PS_RXFIFO_COUNT , 0x00001050 , RO 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_FIFO_TX_WRITE_ENABLE , 0x00001054 , RW 
+ AUI_module , AUI_map ,  ,  ,  , BYTE ,  ,  , AUI_AURORA_ACCESS_LOOP_ENA , 0x00001058 , RW 
+
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , ODI.ODI_map , 0x10000 ,  
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , DTI.DTI_map , 0x20000 ,  
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , ZU.ZU_map , 0x30000 ,  
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , SCU.SCU_map , 0x40000 ,  
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , AUI.AUI_map , 0x50000 ,  
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , DTISPITXFIFO , 0x200000 , RW 
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , DTISPIRXFIFO , 0x400000 , RO 
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , ZUPACKET , 0x600000 , rw 
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , ZUKEY , 0x800000 , rw 
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , AUIAURORATXFIFO , 0xA00000 , RW 
+ top_PSIF , top_if_map ,  ,  ,  , BYTE ,  ,  , AUIAURORARXFIFO , 0xC00000 , RO 

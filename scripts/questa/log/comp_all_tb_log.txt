@@ -1,0 +1,3 @@
+------- comp_all_tb_tb.tcl -------
+Reading toolsetupfile file: /uio/kant/ifi-ansatt-u05/skogstrr/IN5200/lab3/in5200_lab3/scripts/toolsetup.tcl.
+Library tb_mla_lib already exists
